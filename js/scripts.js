@@ -20,5 +20,8 @@ $(document).ready(function () {
       $('#java').hide();
     }
     $(".name1").text(name)
+
+    
   });
+  
 });
