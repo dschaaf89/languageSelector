@@ -4,9 +4,10 @@ body{
 h1{
   text-align: center;
 }
-#python, #javaScript, #csharp {
-  display:none;
-}
+#python{display:none;}
+#javaScript{display:none;}
+#csharp{display:none;}
+
 .center{
   display: block;
   margin-left: auto;

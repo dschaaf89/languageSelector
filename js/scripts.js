@@ -5,16 +5,21 @@ $(document).ready(function () {
     const animal = $("input:radio[name=animal]:checked").val();
     const color = $("#color").val();
     const book =$("input:radio[name=book]:checked").val();
+  
     event.preventDefault();
-    if(color === "Red"){
+    if(color === "Red")
+    {
       $('#python').show();
     }
-    else if(color === "Blue"){
+    else if(color === "Blue")
+    {
       $('#csharp').show();
+      
     }
-    else(color === "Green")
+    else(color === 'Green')
     {
       $('#javaScript').show();
     }
-});
+    $(".name1").text(name);
+  });
 });
