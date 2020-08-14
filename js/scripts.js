@@ -6,8 +6,15 @@ $(document).ready(function () {
     const color = $("#color").val();
     const book =$("input:radio[name=book]:checked").val();
     event.preventDefault();
-    if( hobby = 2){
+    if(color === "Red"){
       $('#python').show();
+    }
+    else if(color === "Blue"){
+      $('#csharp').show();
+    }
+    else(color === "Green")
+    {
+      $('#javaScript').show();
     }
 });
 });
