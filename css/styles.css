@@ -3,6 +3,7 @@ body{
 }
 h1{
   text-align: center;
+  margin: 5%;
 }
 
 #java{
@@ -52,4 +53,8 @@ button {
   padding: 5%;
   border:solid black;
   margin: 5%;
+}
+
+.container1{
+  margin: 8%;
 }
