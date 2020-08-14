@@ -21,7 +21,7 @@ h1{
 .card {
   box-shadow: 0 8px 16px 0 #000000;
   transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
+  border-radius: 5px; 
   background: skyblue;
   width: 50%;
   margin-left: 25%;
@@ -50,11 +50,16 @@ button {
 }
 
 #data{
+  box-shadow: 0 8px 16px 0 #000000;
+  transition: 0.3s;
+  border-radius: 5px;
+  background: rgb(166, 172, 166);
   padding: 5%;
-  border:solid black;
-  margin: 5%;
+  
+  margin-bottom: 10%;
 }
 
 .container1{
   margin: 8%;
 }
+
