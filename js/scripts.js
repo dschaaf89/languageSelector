@@ -7,18 +7,14 @@ $(document).ready(function () {
     const book =$("input:radio[name=book]:checked").val();
   
     event.preventDefault();
-    if(color === "Red")
-    {
+    if (color ==="red"){
       $('#python').show();
     }
-    else if(color === "Blue")
-    {
-      $('#csharp').show();
-      
+    else if (color === "Blue"){
+      $('#javascript').show();
     }
-    else(color === 'Green')
-    {
-      $('#javaScript').show();
+    else{
+      $('#csharp').show(); 
     }
     $(".name1").text(name);
   });
