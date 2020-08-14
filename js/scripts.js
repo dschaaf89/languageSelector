@@ -8,12 +8,16 @@ $(document).ready(function () {
     event.preventDefault();
     if (color === "Red") {
       $('#python').show();
+      $('#csharp').hide();
+      $('#java').hide();
     } else if (color === "Blue") {
-      
       $('#java').show();
+      $('#csharp').hide();
+      $('#python').hide();
     } else {
-      
       $('#csharp').show();
+      $('#python').hide();
+      $('#java').hide();
     }
     $(".name1").text(name)
   });
