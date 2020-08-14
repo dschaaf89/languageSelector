@@ -4,9 +4,17 @@ body{
 h1{
   text-align: center;
 }
-#python{display:none;}
-#javaScript{display:none;}
-#csharp{display:none;}
+
+#java{
+  display: none;
+}
+#python{
+  display: none;
+}
+#csharp{
+  display: none;
+}
+
 
 .center{
   display: block;
