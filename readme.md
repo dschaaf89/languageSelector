@@ -15,7 +15,7 @@ _This is a website survey that takes in infromation from the user and returns to
 * open index.html to get to opening splash page that contains the survey.
 * after taking the survey click on the submit button at bottom of the page. on the card there is a click here for more information about the language that is reconmmended and it opens up that new page. there is a click here link at the bottom of that page that allows it to go back to the orignal index.html page.
 
-* gh-pages link is https://dschaaf89.github.io/Portfolio/index.html 
+
 ## Known Bugs
 There are no known bugs at this time.
 
